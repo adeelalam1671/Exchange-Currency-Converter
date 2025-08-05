@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Currency Conveter</title>
+    <link rel="stylesheet" href="exchange.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/brands.min.css" integrity="sha512-mXqwRsOznG7CS37KA7CLR1Fc72gfOgp7r8xaVdBKoBKhitcKI/mK+IamtZUf+FAkufXOvVTESu9lPsoQc+kFxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <h1>Currency Converter</h1>
+    <form >
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input value="100" type="text">
+        </div>
+        <div class="DropDown">
+            <div class="from">
+                <p>from</p>  
+                <div class="selet_container">
+                    <img src="https://flagsapi.com/AE/flat/64.png">
+                    <select name="from" >
+                        
+                    </select>
+                </div>
+            </div>
+            <i class="fa-solid fa-right-left"></i>
+             <div class="to">
+                <p>TO</p>
+                <div class="selet_container">
+                    <img src="https://flagsapi.com/AE/flat/64.png">
+                    <select name="to" >
+                        
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="msg">
+            <p>1USD = 90 rupees</p>
+        </div>
+        <button>Get Exchange Rate</button>
+    </form>
+    </div>
+    <script src="currency_list.js"></script>    
+    <script src="exchange.js"></script>
+    
+</body>
+</html>
